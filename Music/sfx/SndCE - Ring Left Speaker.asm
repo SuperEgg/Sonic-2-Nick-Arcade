@@ -1,5 +1,5 @@
 SndCE_Ring_Left_Speaker_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndCE_Ring_Left_Speaker_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

@@ -1,5 +1,5 @@
 SndC3_Giant_Ring_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndC3_Giant_Ring_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $02

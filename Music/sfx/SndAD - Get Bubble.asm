@@ -1,5 +1,5 @@
 SndAD_Get_Bubble_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndAD_Get_Bubble_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

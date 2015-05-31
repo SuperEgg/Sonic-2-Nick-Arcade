@@ -1,5 +1,5 @@
 SndAF_Shield_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndAF_Shield_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

@@ -1,5 +1,5 @@
 SndBD_ChainStomp_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndBD_ChainStomp_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $02

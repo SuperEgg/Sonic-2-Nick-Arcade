@@ -1,5 +1,5 @@
 SndB7_Rumbling_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndB7_Rumbling_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

@@ -1,5 +1,5 @@
 SndCA_Enter_SS_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndCA_Enter_SS_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

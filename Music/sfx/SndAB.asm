@@ -1,5 +1,5 @@
 SndAB_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndAB_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

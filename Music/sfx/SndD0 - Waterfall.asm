@@ -1,5 +1,5 @@
 SndD0_Waterfall_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndD0_Waterfall_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

@@ -1,5 +1,5 @@
 SndC6_Ring_Loss_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndC6_Ring_Loss_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $02

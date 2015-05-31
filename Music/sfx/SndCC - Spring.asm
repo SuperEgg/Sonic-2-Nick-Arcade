@@ -1,5 +1,5 @@
 SndCC_Spring_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndCC_Spring_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

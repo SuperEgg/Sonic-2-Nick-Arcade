@@ -1,5 +1,5 @@
 SndAC_Hit_Boss_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndAC_Hit_Boss_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

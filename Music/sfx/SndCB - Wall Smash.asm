@@ -1,5 +1,5 @@
 SndCB_Wall_Smash_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndCB_Wall_Smash_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $02

@@ -1,5 +1,5 @@
 SndAE_Fireball_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndAE_Fireball_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $02

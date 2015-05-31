@@ -1,5 +1,5 @@
 SndA7_Push_Block_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndA7_Push_Block_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

@@ -1,5 +1,5 @@
 SndC0_Basaran_Flap_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndC0_Basaran_Flap_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

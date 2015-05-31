@@ -1,5 +1,5 @@
 SndB3_Flamethrower_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndB3_Flamethrower_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $02

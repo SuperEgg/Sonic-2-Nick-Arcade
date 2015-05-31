@@ -1,5 +1,5 @@
 SndC7_Chain_Rising_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndC7_Chain_Rising_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

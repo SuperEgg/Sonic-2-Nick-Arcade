@@ -1,5 +1,5 @@
 SndB4_Bumper_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndB4_Bumper_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $03

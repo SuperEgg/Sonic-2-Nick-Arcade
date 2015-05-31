@@ -1,5 +1,5 @@
 SndB6_Spikes_Move_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndB6_Spikes_Move_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

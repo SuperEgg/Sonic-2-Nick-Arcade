@@ -1,5 +1,5 @@
 SndA9_SS_Item_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndA9_SS_Item_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

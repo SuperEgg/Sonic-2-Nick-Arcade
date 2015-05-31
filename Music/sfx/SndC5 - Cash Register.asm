@@ -1,5 +1,5 @@
 SndC5_Cash_Register_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndC5_Cash_Register_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $03

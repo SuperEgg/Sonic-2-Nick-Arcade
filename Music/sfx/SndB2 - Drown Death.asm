@@ -1,5 +1,5 @@
 SndB2_Drown_Death_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndB2_Drown_Death_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $02

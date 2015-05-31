@@ -1,5 +1,5 @@
 SndBC_Teleport_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndBC_Teleport_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $02

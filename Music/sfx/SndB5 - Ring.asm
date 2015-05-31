@@ -1,5 +1,5 @@
 SndB5_Ring_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndB5_Ring_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

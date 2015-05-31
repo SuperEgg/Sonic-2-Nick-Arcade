@@ -1,5 +1,5 @@
 SndBB_Door_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndBB_Door_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

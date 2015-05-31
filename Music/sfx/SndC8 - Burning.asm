@@ -1,5 +1,5 @@
 SndC8_Burning_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndC8_Burning_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

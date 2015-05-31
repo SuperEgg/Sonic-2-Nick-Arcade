@@ -1,5 +1,5 @@
 SndC9_Hidden_Bonus_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndC9_Hidden_Bonus_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

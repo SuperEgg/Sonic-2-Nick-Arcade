@@ -1,5 +1,5 @@
 SndCD_Switch_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndCD_Switch_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

@@ -1,5 +1,5 @@
 SndCF_Signpost_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndCF_Signpost_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $02

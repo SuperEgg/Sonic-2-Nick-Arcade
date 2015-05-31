@@ -1,5 +1,5 @@
 SndC4_Bomb_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndC4_Bomb_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

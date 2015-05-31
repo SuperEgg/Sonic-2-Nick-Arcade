@@ -140,47 +140,7 @@ nBb7:	EQU nA7+1	; $DF
 
 ; ---------------------------------------------------------------------------------------------
 ; PSG envelope equates
-sTone_00:	EQU $00
-sTone_01:	EQU $01
-sTone_02:	EQU $02
-sTone_03:	EQU $03
-sTone_04:	EQU $04
-sTone_05:	EQU $05
-sTone_06:	EQU $06
-sTone_07:	EQU $07
-sTone_08:	EQU $08
-sTone_09:	EQU $09
-sTone_0A:	EQU $0A
-sTone_0B:	EQU $0B
-sTone_0C:	EQU $0C
-sTone_0D:	EQU $0D
-sTone_0E:	EQU $0E
-sTone_0F:	EQU $0F
-sTone_10:	EQU $10
-sTone_11:	EQU $11
-sTone_12:	EQU $12
-sTone_13:	EQU $13
-sTone_14:	EQU $14
-sTone_15:	EQU $15
-sTone_16:	EQU $16
-sTone_17:	EQU $17
-sTone_18:	EQU $18
-sTone_19:	EQU $19
-sTone_1A:	EQU $1A
-sTone_1B:	EQU $1B
-sTone_1C:	EQU $1C
-sTone_1D:	EQU $1D
-sTone_1E:	EQU $1E
-sTone_1F:	EQU $1F
-sTone_20:	EQU $20
-sTone_21:	EQU $21
-sTone_22:	EQU $22
-sTone_23:	EQU $23
-sTone_24:	EQU $24
-sTone_25:	EQU $25
-sTone_26:	EQU $26
-sTone_27:	EQU $27
-fTone_00:	EQU $28
+fTone_00:	EQU $00
 fTone_01:	EQU fTone_00+1
 fTone_02:	EQU fTone_01+1
 fTone_03:	EQU fTone_02+1
@@ -194,97 +154,7 @@ fTone_0A:	EQU fTone_09+1
 fTone_0B:	EQU fTone_0A+1
 fTone_0C:	EQU fTone_0B+1
 ; ---------------------------------------------------------------------------------------------
-;---------------------------------------------
-; Sonic 2 DAC Instruments
-;---------------------------------------------
-S2dKick				EQU $81
-S2dSnare			EQU $82
-S2dClap				EQU $83
-S2dScratch			EQU $84
-S2dTimpani			EQU $85
-S2dHiTom			EQU $86
-S2dVLowClap			EQU $87
-S2dHiTimpani		EQU $88
-S2dMidTimpani 		EQU $89
-S2dLowTimpani 		EQU $8A
-S2dVLowTimpani 		EQU $8B
-S2dMidTom			EQU $8C
-S2dLowTom			EQU $8D
-S2dFloorTom			EQU $8E
-S2dHiClap			EQU $8F
-S2dMidClap			EQU $90
-S2dLowClap			EQU $91
-; ---------------------------------------------------------------------------------------------
 ; DAC Equates
-dSnareS3:		EQU $81				; $81
-dHighTom:		EQU dSnareS3+1			; $82
-dMidTomS3:		EQU dHighTom+1			; $83
-dLowTomS3:		EQU dMidTomS3+1			; $84
-dFloorTomS3:		EQU dLowTomS3+1			; $85
-dKickS3:		EQU dFloorTomS3+1		; $86
-dMuffledSnare:		EQU dKickS3+1			; $87
-dCrashCymbal:		EQU dMuffledSnare+1		; $88
-dRideCymbal:		EQU dCrashCymbal+1		; $89
-dLowMetalHit:		EQU dRideCymbal+1		; $8A
-dMetalHit:		EQU dLowMetalHit+1		; $8B
-dHighMetalHit:		EQU dMetalHit+1			; $8C
-dHigherMetalHit:	EQU dHighMetalHit+1		; $8D
-dMidMetalHit:		EQU dHigherMetalHit+1		; $8E
-dClapS3:		EQU dMidMetalHit+1		; $8F
-dElectricHighTom:	EQU dClapS3+1			; $90
-dElectricMidTom:	EQU dElectricHighTom+1		; $91
-dElectricLowTom:	EQU dElectricMidTom+1		; $92
-dElectricFloorTom:	EQU dElectricLowTom+1		; $93
-dTightSnare:		EQU dElectricFloorTom+1		; $94
-dMidpitchSnare:		EQU dTightSnare+1		; $95
-dLooseSnare:		EQU dMidpitchSnare+1		; $96
-dLooserSnare:		EQU dLooseSnare+1		; $97
-dHiTimpaniS3:		EQU dLooserSnare+1		; $98
-dLowTimpaniS3:		EQU dHiTimpaniS3+1		; $99
-dMidTimpaniS3:		EQU dLowTimpaniS3+1		; $9A
-dQuickLooseSnare:	EQU dMidTimpaniS3+1		; $9B
-dClick:			EQU dQuickLooseSnare+1		; $9C
-dPowerKick:		EQU dClick+1			; $9D
-dQuickGlassCrash:	EQU dPowerKick+1		; $9E
-dGlassCrashSnare:	EQU dQuickGlassCrash+1		; $9F
-dGlassCrash:		EQU dGlassCrashSnare+1		; $A0
-dGlassCrashKick:	EQU dGlassCrash+1		; $A1
-dQuietGlassCrash:	EQU dGlassCrashKick+1		; $A2
-dOddSnareKick:		EQU dQuietGlassCrash+1		; $A3
-dKickExtraBass:		EQU dOddSnareKick+1		; $A4
-dComeOn:		EQU dKickExtraBass+1		; $A5
-dDanceSnare:		EQU dComeOn+1			; $A6
-dLooseKick:		EQU dDanceSnare+1		; $A7
-dModLooseKick:		EQU dLooseKick+1		; $A8
-dWoo:			EQU dModLooseKick+1		; $A9
-dGo:			EQU dWoo+1			; $AA
-dSnareGo:		EQU dGo+1			; $AB
-dPowerTom:		EQU dSnareGo+1			; $AC
-dHiWoodBlock:		EQU dPowerTom+1			; $AD
-dLowWoodBlock:		EQU dHiWoodBlock+1		; $AE
-dHiHitDrum:		EQU dLowWoodBlock+1		; $AF
-dLowHitDrum:		EQU dHiHitDrum+1		; $B0
-dMetalCrashHit:		EQU dLowHitDrum+1		; $B1
-dEchoedClapHit:		EQU dMetalCrashHit+1		; $B2
-dLowerEchoedClapHit:	EQU dEchoedClapHit+1		; $B3
-dHipHopHitKick:		EQU dLowerEchoedClapHit+1	; $B4
-dHipHopHitPowerKick:	EQU dHipHopHitKick+1		; $B5
-dBassHey:		EQU dHipHopHitPowerKick+1	; $B6
-dDanceStyleKick:	EQU dBassHey+1			; $B7
-dHipHopHitKick2:	EQU dDanceStyleKick+1		; $B8
-dHipHopHitKick3:	EQU dHipHopHitKick2+1		; $B9
-dReverseFadingWind:	EQU dHipHopHitKick3+1		; $BA
-dScratchS3:		EQU dReverseFadingWind+1	; $BB
-dLooseSnareNoise:	EQU dScratchS3+1		; $BC
-dPowerKick2:		EQU dLooseSnareNoise+1		; $BD
-dCrashingNoiseWoo:	EQU dPowerKick2+1		; $BE
-dQuickHit:		EQU dCrashingNoiseWoo+1		; $BF
-dKickHey:		EQU dQuickHit+1			; $C0
-dPowerKickHit:		EQU dKickHey+1			; $C1
-dLowPowerKickHit:	EQU dPowerKickHit+1		; $C2
-dLowerPowerKickHit:	EQU dLowPowerKickHit+1		; $C3
-dLowestPowerKickHit:	EQU dLowerPowerKickHit+1	; $C4
-
 dKick			EQU	$81
 dSnare			EQU	$82
 dTimpani		EQU	$83
@@ -293,31 +163,6 @@ dMidTimpani		EQU	$89
 dLowTimpani		EQU	$8A
 dVLowTimpani		EQU	$8B
 
-
-;dKick:			EQU dLowestPowerKickHit+1	; $C5
-;dSnare:			EQU dKick+1	; $C6
-dClap:			EQU dSnare+1	; $C7
-;dScratch:		EQU dClap+1	; $C8
-;dTimpani:		EQU dScratch+1	; $C9
-dHiTom:			EQU dTimpani+1	; $CA
-dVLowClap:		EQU dHiTom+1	; $CB
-;dHiTimpani:		EQU dVLowClap+1	; $CC
-;dMidTimpani:		EQU dHiTimpani+1	; $CD
-;dLowTimpani:		EQU dMidTimpani+1	; $CE
-;dVLowTimpani:	EQU dLowTimpani+1	; $CF
-dMidTom:			EQU dVLowTimpani+1	; $D0
-dLowTom:			EQU dMidTom+1	; $D1
-dFloorTom:		EQU dLowTom+1	; $D2
-dHiClap:			EQU dFloorTom+1	; $D3
-dMidClap:		EQU dHiClap+1	; $D4
-dLowClap:		EQU dMidClap+1	; $D5
-dFinalFightMetalCrash:	EQU dLowClap+1	; $D6
-dIntroKick:			EQU dFinalFightMetalCrash+1	; $D7
-dEchoedClapHit_S3:		EQU dIntroKick+1	; $D8
-dLowerEchoedClapHit_S3:	EQU dEchoedClapHit_S3+1	; $D9
-dBassD:					EQU	dLowerEchoedClapHit_S3+1
-dSnareD:				EQU	dBassD+1
-dBassCrash:				EQU dSnareD+1
 ; ---------------------------------------------------------------------------------------------
 ; Channel IDs for SFX
 cPSG1				EQU $80
@@ -333,18 +178,19 @@ cFM6				EQU $06	; Only in S3/S&K/S3D, overrides DAC
 ;---------------------------------------------
 ; SMPS F_Tone Equates 
 ;---------------------------------------------	
-f_tone01 = $01
-f_tone02 = $02
-f_tone03 = $03
-f_tone04 = $04
-f_tone05 = $05
-f_tone06 = $06
-f_tone07 = $07
-f_tone08 = $08
-f_tone09 = $09
-f_tone0A = $0A
-f_tone0B = $0B
-f_tone0C = $0C
+fTone_00:	EQU $00
+fTone_01:	EQU fTone_00+1
+fTone_02:	EQU fTone_01+1
+fTone_03:	EQU fTone_02+1
+fTone_04:	EQU fTone_03+1
+fTone_05:	EQU fTone_04+1
+fTone_06:	EQU fTone_05+1
+fTone_07:	EQU fTone_06+1
+fTone_08:	EQU fTone_07+1
+fTone_09:	EQU fTone_08+1
+fTone_0A:	EQU fTone_09+1
+fTone_0B:	EQU fTone_0A+1
+fTone_0C:	EQU fTone_0B+1
 ; ---------------------------------------------------------------------------------------------
 ; PSG conversion to S3/S&K/S3D drivers require a tone shift of 12 semi-tones.
 conv0To256  macro val 
@@ -555,22 +401,13 @@ smpsPSGAlterVol macro vol
 	endm
 
 ; Clears pushing sound flag in S1
-smpsClearPush macro
+smpsClearPush macro	
 	dc.b	$ED
-;	else
-		fail "Coord. Flag to clear S1 push block flag does not exist in S2 or S3 drivers. Complain to Flamewing to add it."
-;	endc
 	endm
 
 ; Stops special SFX (S1 only) and restarts overridden music track
 smpsStopSpecial macro
-;	if SonicDriverVer=1
 		dc.b	$EE
-;	else
-;		message "Coord. Flag to stop special SFX does not exist in S2 or S3 drivers. Complain to Flamewing to add it. With adequate caution, smpsStop can do this job."
-;		dc.b	$F2
-;	endc
-	fail "Coord. Flag to stop special SFX does not exist in S2 or S3 drivers. Complain to Flamewing to add it. With adequate caution, smpsStop can do this job."
 	endm
 
 ; EFxx[yy] - Set Voice of FM channel to xx; xx < 0 means yy present

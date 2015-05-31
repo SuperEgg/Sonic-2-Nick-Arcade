@@ -1,5 +1,5 @@
 SndA1_Lamppost_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndA1_Lamppost_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

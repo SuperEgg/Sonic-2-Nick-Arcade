@@ -1,5 +1,5 @@
 SndAA_Splash_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndAA_Splash_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $02

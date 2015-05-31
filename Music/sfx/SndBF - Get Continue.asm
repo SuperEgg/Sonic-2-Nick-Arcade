@@ -1,5 +1,5 @@
 SndBF_Get_Continue_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndBF_Get_Continue_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $03

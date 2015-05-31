@@ -1,5 +1,5 @@
 SndC1_Break_Item_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndC1_Break_Item_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $02

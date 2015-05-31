@@ -1,5 +1,5 @@
 SndB9_Collapse_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndB9_Collapse_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $04

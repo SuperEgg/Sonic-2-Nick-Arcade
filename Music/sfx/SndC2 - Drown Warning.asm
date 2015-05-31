@@ -1,5 +1,5 @@
 SndC2_Drown_Warning_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndC2_Drown_Warning_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

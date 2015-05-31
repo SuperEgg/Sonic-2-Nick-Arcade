@@ -1,5 +1,5 @@
 SndA3_Death_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndA3_Death_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01

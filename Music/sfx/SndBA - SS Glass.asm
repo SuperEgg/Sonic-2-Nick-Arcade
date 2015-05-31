@@ -1,5 +1,5 @@
 SndBA_SS_Glass_Header:
-	smpsHeaderStartSong 1
+smpsHeaderStartSong = 1
 	smpsHeaderVoice     SndBA_SS_Glass_Voices
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01
