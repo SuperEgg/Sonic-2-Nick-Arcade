@@ -192,7 +192,7 @@ PlayPCMLoop:
 ; This subroutine plays the "SEGA" sound.
 ; 
 Play_SegaPCM:	
-	ld	de,9688h			; de = bank-relative location of the SEGA sound
+	ld	de,8000h			; de = bank-relative location of the SEGA sound
 	ld	hl,6978h			; hl = size of the SEGA sound
 	ld	c,2Ah							; c = Command to select DAC output register
 
@@ -238,15 +238,14 @@ Sample3_Pitch:
 	
 
 
-DAC_Sample1:	binclude	"Music/DAC/DAC1.bin"
+DAC_Sample1:	binclude	"samples/DAC1.bin"
 DAC_Sample1_End:
 
-DAC_Sample2:	binclude	"Music/DAC/DAC2.bin"
+DAC_Sample2:	binclude	"samples/DAC2.bin"
 DAC_Sample2_End:
 
-DAC_Sample3:	binclude	"Music/DAC/DAC3.bin"
+DAC_Sample3:	binclude	"samples/DAC3.bin"
 DAC_Sample3_End:
-
 
 EndOfDriver:
 	if MOMPASS==2
