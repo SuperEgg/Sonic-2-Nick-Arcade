@@ -272,7 +272,10 @@ Mus84_SLZ_Call09:
 	dc.b	nEb4
 	smpsAlterVol        $07
 	smpsReturn
-
+	smpsJump			Mus84_SLZ_Call10
+	smpsJump 			Mus84_SLZ_Call11
+Mus84_SLZ_Call10:
+Mus84_SLZ_Call11:	
 ; PSG3 Data
 Mus84_SLZ_PSG3:
 	smpsPSGform         $E7
