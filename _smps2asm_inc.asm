@@ -7,13 +7,7 @@ align0	macro	val
     endm
 	
 smpsWeirdD1LRR macro
-	if SonicDriverVer>=3
-		; Emulate it in S3/S&K/S3D driver
-		smpsFMICommand $88,$0F
-		smpsFMICommand $8C,$0F
-	else
 		dc.b	$F9
-	endif
 	endm
 ; ---------------------------------------------------------------------------------------------
 ; Standard Octave Pitch Equates
