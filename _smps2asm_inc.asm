@@ -340,11 +340,6 @@ smpsReturn macro val
 ; Fade in previous song (ie. 1-Up)
 smpsFade macro val
 	dc.b	$E4
-	if narg>=1
-		dc.b	val
-	else
-		dc.b	$FF
-	endc
 	endm
 
 ; E5xx - Set channel tempo divider to xx
