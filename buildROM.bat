@@ -9,12 +9,12 @@ IF NOT EXIST S2NA.bin goto LABLERR
 rem rompad S2NA.bin 255 0
 rem fixheadr.exe S2NA.bin
 
+:LABLDONE
 echo Build succeeded
+pause
 
-goto LABLDONE
+exit \b
 
 :LABLERR
 echo Build failed
-pause
-:LABLDONE
 pause
