@@ -11,7 +11,7 @@
 
 	!org	0							; z80 Align, handled by the build process
 	CPU Z80
-	listing off
+	listing purecode
 
 SEGA_Pitch:		equ	0Bh					; The pitch of the SEGA sound
 
