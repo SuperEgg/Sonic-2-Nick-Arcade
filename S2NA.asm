@@ -48953,6 +48953,7 @@ Nem_Stars:	dc.b   0,$22,$80,  6,$3C,$16,$3D,$25,$1A,$35,$1C,$45,$1D,$55,$1B,$64,
 		dc.b $33,$DF,$FB,$7D,$F9,$33,$DA,$6A,$72,$99,$53,$55,$3C,$8E,$AB,$34,$FB,$5D,$7C,$AB,$AB,$AB,$6D,$B6,$E5,$CB,$80,  0,  0,  0,$17,$F5,$8F,$E9,  0,  0,  0,  0,  0; 192
 ;
 ; some unused uncompressed art
+; Skid dust, spindash dust, and splash art
 ;
 Unused_Art_9E1FB:dc.b	0,  0,	0,  0,	0,  0,	0,  0,	0,  0,	0,  0,$EE,  0,	0,$EE,$EE,  0, $E,$EE,$EE,  0, $E,$EE,$EE,  0, $E,$EE,$EE,  0,$EE,$EE,$EE,  0,$EE,$EE,$EE,  0,$EE,$EE,$EE,  0,$EE,$EE,$EE,  0,$EE,$EE,$EE,  0, $E,$EE,$EE,  0,	0, $E,$EE,  0,	0,  0,$EE,  0,	0,  0; 0
 		dc.b   0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,$E0, $E,  0,  0,$EE,$EE,$EE,  0,$EE,$EE,$EE,  0,$EE,$EE,$EE,$E0,$EE,$EE,$EE,$E0,$EE,$EE,$EE,$E0,$EE,$EE,$EE,  0,$EE,$EE,$EE,$E0,$EE,$EE,$EE,$E0,$EE,$EE,$EE,  0,$EE,$EE,$EE,  0,$EE,$EE,  0,  0,$EE,  0,  0; 64
