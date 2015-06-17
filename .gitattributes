@@ -1,0 +1,7 @@
+*.asm		text
+*.txt		text
+*.bat		text
+*.lst		text
+*.cpp		text
+*.bin		binary
+*.msg		binary

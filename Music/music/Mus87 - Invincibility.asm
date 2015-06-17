@@ -123,6 +123,7 @@ Mus87_Invincibility_Loop00:
 	dc.b	$0C, dSnare, dSnare, $06, dKick, $12, dKick, $0C, dSnare, dSnare, $04, dSnare
 	dc.b	dSnare, dSnare, dSnare, dSnare, dSnare, dSnare, dSnare, dSnare, dSnare, dSnare
 	smpsJump            Mus87_Invincibility_Loop00
+	smpsStop
 
 Mus87_Invincibility_Voices:
 ;	Voice $00
