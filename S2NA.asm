@@ -45855,6 +45855,7 @@ RingPos_CPZ1:	dc.w   $A8,$21B0	; 0 ; DATA XREF: ROM:RingPos_Indexo
 ; most interesting though, is the uncompiled debug mode
 ;  code	around 0x60000.	sweet stuff
 ;
+	include "art/rom.asm"
 
 ; ================================================================================
 ; The Sonic 2 Nick Arcade Sound Driver.
