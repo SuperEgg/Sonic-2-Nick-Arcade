@@ -74,9 +74,10 @@ int main(int argc, char *argv[])
 	fseek(file, 0, SEEK_SET);
 
 	// Save uncompressed file to buffer
-	char filearray[filesize];
+	char *filearray = new char[filesize];
 	fread(filearray, 1, filesize, file);
 	fwrite(filearray, 1, filesize, buffer);
+	delete[] filearray;
 
 	// Get ready to write back the compressed file
 	freopen("tmp", "rb", buffer);
@@ -143,12 +144,18 @@ bool buildRom(FILE* from, FILE* to)
 				cpuType = fgetc(from);
 				segmentType = fgetc(from);
 				granularity = fgetc(from);
-				if(granularity != 1)
-					printf("\nERROR: Unsupported granularity %d.", granularity); return false;
+				if (granularity != 1)
+				{
+					printf("\nERROR: Unsupported granularity %d.", granularity);
+					return false;
+				}
 				break;
 			default:
-				if(headerByte > 0x81)
-					printf("\nERROR: Unsupported segment header $%02X", headerByte); return false;
+				if (headerByte > 0x81)
+				{
+					printf("\nERROR: Unsupported segment header $%02X", headerByte);
+					return false;
+				}
 				cpuType = headerByte;
 				break;
 		}
@@ -169,20 +176,20 @@ bool buildRom(FILE* from, FILE* to)
 
 		if (start < 0)
 		{
-			printf("\nERROR: negative start address ($%X).", start), start = 0;
+			printf("\nERROR: negative start address ($%lX).", start), start = 0;
 			return false;
 		}
 
 		if (cpuType == 0x51 && start != 0 && lastSegmentCompressed)
 		{
-			printf("\nERROR: The compressed Z80 code (smps.asm) must all be in one segment. That means no ORG/ALIGN/CNOP/EVEN or memory reservation commands in the Z80 code and the size must be < 65535 bytes. The offending new segment starts at address $%X relative to the start of the Z80 code.", start);
+			printf("\nERROR: The compressed Z80 code (smps.asm) must all be in one segment. That means no ORG/ALIGN/CNOP/EVEN or memory reservation commands in the Z80 code and the size must be < 65535 bytes. The offending new segment starts at address $%lX relative to the start of the Z80 code.", start);
 			return false;
 		}
 
 		long cur = ftell(to);
 
 		if(start+3 < cur) // 3 bytes of leeway for instruction patching
-			printf("\nWarning: overlapping allocation detected! $%X < $%X", start, ftell(to));
+			printf("\nWarning: overlapping allocation detected! $%lX < $%lX", start, ftell(to));
 
 //		printf("copying $%X-$%X -> $%X-$%X\n", ftell(from), ftell(from)+length, start, start+length);
 		while(length)
